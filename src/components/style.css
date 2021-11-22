@@ -1,0 +1,51 @@
+#root {
+  background-color: #2f2f2f;
+  height: 100vh;
+}
+.main_tic {
+  border-radius: 10px;
+  width: 500px;
+  border: 0;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  box-shadow: 0px 0px 25px #00e1ff;
+}
+.div_matrix {
+  background: #eaeaea;
+  font-size: 65px;
+  font-weight: 300;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(68 120 126);
+  color: rgb(138 76 76);
+  font-family: cursive;
+  text-align: center;
+  width: 100%;
+  height: 104px;
+}
+.container_rat {
+  display: flex;
+  height: 80vh;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.btn_run_rat {
+  width: 100%;
+  padding: 45px 0px;
+  text-align: center;
+}
+.btn_run_rat button {
+  padding: 10px;
+  width: 20%;
+  font-size: 25px;
+  background-color: #dfdfdf;
+  transition: 0.4s all ease;
+  border: 2px solid rgb(68 120 126);
+  cursor: pointer;
+  font-family: cursive;
+  color: #3a5393;
+}
+.btn_run_rat button:hover {
+  box-shadow: 0px 0px 15px #3a5393;
+}
